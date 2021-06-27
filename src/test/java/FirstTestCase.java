@@ -6,5 +6,6 @@ public class FirstTestCase extends BaseTest {
     @Test
     public void firstTestMethod() {
         Reporter.log("Start first test");
+        System.out.println("Start first test");
     }
 }

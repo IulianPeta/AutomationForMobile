@@ -1,17 +1,22 @@
 import org.testng.Reporter;
-import org.testng.annotations.AfterMethod;
-import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.AfterClass;
+import org.testng.annotations.BeforeClass;
+
+import java.util.logging.Logger;
 
 public abstract class BaseTest {
 
 
-    @BeforeMethod
+    @BeforeClass
     public void setUp() {
         Reporter.log("Start set up");
+        System.out.println("Start set up");
     }
 
-    @AfterMethod
+    @AfterClass
     public void tearDown() {
         Reporter.log("Start tear down");
+        System.out.println("Stop set up");
+
     }
 }
