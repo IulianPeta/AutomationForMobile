@@ -3,7 +3,8 @@
 <suite name="Android Test Suite">
     <test name="Android Test Cases" parallel="classes" thread-count="1">
         <classes>
-            <class name="FirstTestCase"></class>
+            <class name="FirstTestCase"/>
+            <class name="LoginActivityTestCase"/>
         </classes>
     </test>
 </suite>
