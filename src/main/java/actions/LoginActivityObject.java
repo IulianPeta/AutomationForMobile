@@ -64,6 +64,10 @@ public final class LoginActivityObject {
         getLoginButton().click();
     }
 
+    public void clickCancelButton() {
+        getCancelButton().click();
+    }
+
     public String getUserName() {
         return getUserNameField().getText();
     }
