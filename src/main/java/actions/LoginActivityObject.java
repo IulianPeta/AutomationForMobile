@@ -60,6 +60,10 @@ public final class LoginActivityObject {
         getPasswordField().sendKeys(password);
     }
 
+    public void clickLoginButton() {
+        getLoginButton().click();
+    }
+
     public String getUserName() {
         return getUserNameField().getText();
     }
